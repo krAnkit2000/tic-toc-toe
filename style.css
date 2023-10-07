@@ -1,0 +1,44 @@
+ 
+ canvas{
+
+  margin:  3rem 2rem;
+    border: 1px solid red;
+    padding: 16px;
+    border-radius: 7px;
+    
+}
+
+#message {
+    margin: 3rem 2rem;
+    /* border: 1px solid red; */
+    padding: 16px;
+    border-radius: 7px;
+    width: max-content;
+    box-shadow: 1px 2px 1px 3px green;
+    margin-left: 3rem;
+    margin-top: 2px;
+    text-shadow: 2px 2px #474de0;
+    font-size: 22px;
+    font-family: monospace;
+
+}
+a{
+    margin: 3rem 2rem;
+    /* border: 1px solid red; */
+    padding: 16px;
+    border-radius: 7px;
+    width: max-content;
+   
+text-decoration: none;
+text-transform: capitalize;
+    margin-top: 2px;
+    text-shadow: 2px 2px #0a0102;
+    font-size: 22px;
+    font-family: monospace;
+    color: white;
+background-color: #fc5d80;
+}
+
+.button{
+    display: flex;
+}
