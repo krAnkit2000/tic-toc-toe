@@ -1,11 +1,19 @@
- 
+ body{
+    background-color:black ;
+    color: white;
+ }
  canvas{
 
-  margin:  3rem 2rem;
+  margin:  3rem 7rem;
     border: 1px solid red;
     padding: 16px;
     border-radius: 7px;
+    cursor: pointer;
     
+    
+}
+h1{
+    text-transform: uppercase;
 }
 
 #message {
@@ -20,8 +28,10 @@
     text-shadow: 2px 2px #474de0;
     font-size: 22px;
     font-family: monospace;
-
+    cursor: none;
 }
+
+
 a{
     margin: 3rem 2rem;
     /* border: 1px solid red; */
@@ -41,4 +51,31 @@ background-color: #fc5d80;
 
 .button{
     display: flex;
+    padding-left: 5rem;
+}
+@media screen and (max-width: 425px) {
+    canvas{
+        margin: 3rem 4rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    canvas{
+        margin: 3rem 13rem;
+    }
+    .button {
+        display: flex;
+       
+        padding-left: 11rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    canvas{
+        margin: 3rem 25rem;
+    }
+    .button {
+        display: flex;
+       
+        padding-left: 24rem;
+    }
 }

@@ -57,7 +57,8 @@ function play(cell) {
     return;
   }
   if (map[cell] != blank) {
-    message.textContent = "position  is taken. try another box";
+  alert("POSITION IS TAKEN. TRY ANOTHER BOX");
+    message.textContent = "POSITION IS TAKEN. TRY ANOTHER BOX";
     return;
   }
   map[cell] = currentPlayer;
@@ -66,11 +67,12 @@ function play(cell) {
    if (wincheck != 0){
     gameOver =true ; 
     message.textContent =((currentPlayer == X) ? 'X' : 'O') +  '  wins!';
-    alert((currentPlayer == X) ? 'X' : 'O' +  '  wins!');
+    alert((currentPlayer == X) ? 'X WIN'  : 'O WIN' );
     return ;
 
    } else if(map.indexOf(blank) == -1){
      gameOver =true ; 
+     alert('Game Tie!')
      message.textContent =' Game Tie!'
      return ;
    }
